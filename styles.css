@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.tree {
+    position: relative;
+    width: 200px;
+}
+
+.sephirah {
+    background-color: #e0e0e0;
+    border: 1px solid #888;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px auto;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+.sephirah:hover {
+    background-color: #c0c0c0;
+}
+
+#keter { margin-bottom: 40px; }
+#hochma, #binah { margin-bottom: 20px; }
+#hesed, #gvurah, #tiferet { margin-bottom: 20px; }
+#netzach, #hod { margin-bottom: 20px; }
+#yesod { margin-bottom: 20px; }
+#maljut { margin-bottom: 20px; }
