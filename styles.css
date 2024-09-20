@@ -14,6 +14,7 @@ body {
 
 
 .tree {
+    margin-top: 50px;
     position: relative;
     width: 200px;
 }
@@ -21,13 +22,14 @@ body {
 .sephirah {
     background-color: #e0e0e0;
     border: 1px solid #888;
-    border-radius: 5px;
+    border-radius: 50%;
     padding: 10px;
     text-align: center;
     margin: 10px auto;
     position: relative;
     transition: background-color 0.3s;
     width: 50%;
+    
 }
 
 .sephirah:hover {
