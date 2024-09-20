@@ -7,6 +7,12 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.father{
+ display:flex
+}
+
+
+
 .tree {
     position: relative;
     width: 200px;
@@ -21,6 +27,7 @@ body {
     margin: 10px auto;
     position: relative;
     transition: background-color 0.3s;
+    width: 50%;
 }
 
 .sephirah:hover {
