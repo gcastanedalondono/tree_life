@@ -12,7 +12,7 @@ h1{
     text-align: center;
 }
 .father{
- display:flex
+ display:flex;
 }
 .circle{
     width: 50%;
@@ -20,10 +20,20 @@ h1{
 
 
 .tree {
-    display: block;
+    
     margin-top: 50px;
-    position: absolute;
-    width: 400px;
+    position: relative;
+
+    
+}
+
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 8px;
+    
 }
 
 .sephirah {
